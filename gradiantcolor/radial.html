@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .one {
+        width: 400px;
+        height: 200px;
+        margin: 50px auto;
+        background: radial-gradient(circle closest-side, red, blue);
+      }
+      .two {
+        width: 400px;
+        height: 200px;
+        margin: 50px auto;
+        background: radial-gradient(
+          circle closest-corner at top center,
+          red,
+          blue
+        );
+      }
+      .three {
+        width: 400px;
+        height: 200px;
+        margin: 50px auto;
+        background: radial-gradient(
+          circle farthest-side at top center,
+          red,
+          blue
+        );
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+  </body>
+</html>

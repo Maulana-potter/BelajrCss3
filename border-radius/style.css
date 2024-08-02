@@ -1,0 +1,63 @@
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: rgb(233, 186, 186);
+  position: relative;
+}
+.container .gambar {
+  position: relative;
+  top: 100px;
+  left: 150px;
+}
+.gambar1 {
+  height: 500px;
+  width: 500px;
+  background-image: url(11111.jpg);
+  background-color: antiquewhite;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  background-position: 0 -30px;
+  position: relative;
+  z-index: 9;
+  box-shadow: inset 0 0 0px 200px rgba(245, 149, 4, 0.4);
+}
+
+.gambar2 {
+  background-image: url(11111.jpg);
+  height: 500px;
+  width: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: -10px 0px;
+  background-color: beige;
+  border-radius: 0 0 50% 50%;
+  top: 0;
+  right: 200px;
+  z-index: 9999;
+  box-shadow: 0 10px 10px 5px rgba(231, 227, 221, 0.5),
+    0 10px 10px 10px rgba(2, 3, 15, 0.5), 0 10px 10px 15px rgba(14, 10, 4, 0.5);
+}
+.judul {
+  width: 600px;
+  background-color: rgb(3, 7, 218);
+  margin: auto;
+  margin-top: -100px;
+  padding-top: 200px;
+  border-radius: 50% 50% 0 0;
+  text-align: center;
+}
+.judul h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.opacity {
+  position: absolute;
+  height: 1000px;
+  width: 100%;
+  top: 0;
+  background-color: aquamarine;
+  z-index: 999999;
+  opacity: 0;
+}
